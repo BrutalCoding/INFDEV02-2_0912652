@@ -12,12 +12,15 @@ green = 50, 255, 100
 screen = pygame.display.set_mode(size)
 
 
+####################################
+######GAME IS NOT WORKING (YET)#####
+####################################
 def Main():
 
 #A board represents a reference to your city
   board = build_square_matrix(10, 30)
   start = time.time()
-  position = 1 #test AASd
+  position = 1
   car = Node(position, car)
   while True:    
 
